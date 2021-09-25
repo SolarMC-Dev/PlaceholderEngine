@@ -113,6 +113,12 @@
 				<version>1.2.0</version>
 				<scope>provided</scope>
 			</dependency>
+			<dependency>
+				<groupId>gg.solarmc.velocity</groupId>
+				<artifactId>velocity-api</artifactId>
+				<version>3.0.2-SNAPSHOT</version>
+				<scope>provided</scope>
+			</dependency>
 			<!-- Testing Dependencies -->
 			<dependency>
 				<groupId>org.junit.jupiter</groupId>
@@ -146,6 +152,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 	<repositories>
 		<repository>
 			<id>solar-repo</id>
